@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="373" max="-2" attributes="0"/>
+                      <Component id="aircraftViewPanelJLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="viewDetailsJButton" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="deleteJButton" min="-2" pref="113" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="allFleetJScrollPane" min="-2" pref="376" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="149" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="numberOfSeatsAvailableJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="serialNumberJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="manufacturerOfAircraftJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="maintenanceCertificateDateJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="modelNumberJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="yearOfManufactureJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="airportLocatedInJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="departureTimeJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="txtNumberOfSeatsAvailableJTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                      <Group type="103" alignment="1" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="txtManufacturerOfAircraftJTextField" max="32767" attributes="0"/>
+                                              <Component id="txtSerialNumberJTextField" min="-2" pref="140" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="txtMaintenanceCertificateDateJTextField" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                          <Component id="txtModelNumberJTextField" alignment="0" min="-2" pref="140" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="1" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="updateDetailsJButton" alignment="1" max="32767" attributes="0"/>
+                                          <Component id="addNewAircraftJButton" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="txtYearOfManufactureJTextField" max="32767" attributes="0"/>
+                                          <Component id="txtAirportLocatedInJTextField" max="32767" attributes="0"/>
+                                          <Component id="txtDepartureTimeJTextField" min="-2" pref="140" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="lastUpdatedJLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txtLastUpdatedJTextField" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="aircraftViewPanelJLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtLastUpdatedJTextField" alignment="3" min="-2" pref="38" max="-2" attributes="0"/>
+                          <Component id="lastUpdatedJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="manufacturerOfAircraftJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtManufacturerOfAircraftJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="serialNumberJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtSerialNumberJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="maintenanceCertificateDateJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtMaintenanceCertificateDateJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="modelNumberJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtModelNumberJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="yearOfManufactureJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtYearOfManufactureJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="airportLocatedInJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtAirportLocatedInJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="departureTimeJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtDepartureTimeJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="numberOfSeatsAvailableJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtNumberOfSeatsAvailableJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="addNewAircraftJButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="updateDetailsJButton" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="allFleetJScrollPane" alignment="0" min="-2" pref="536" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="viewDetailsJButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="deleteJButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="allFleetJScrollPane">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tableOfAllFleetJTable">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="2" rowCount="0">
+                <Column editable="false" title="Manufacturer" type="java.lang.Object"/>
+                <Column editable="false" title="Serial Number" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="viewDetailsJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="View Details"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="viewDetailsJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="deleteJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Delete"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aircraftViewPanelJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Aircraft View Panel"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="maintenanceCertificateDateJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Expired Maintenance Certificate (Y/N):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="airportLocatedInJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Airport Located in (E/F/G/H):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="manufacturerOfAircraftJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Manufacturer of Aircraft (A/B/C/D):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="departureTimeJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Departure Time (00 to 24):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="updateDetailsJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Update Details"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateDetailsJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="serialNumberJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial Number (1 to 100):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="modelNumberJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Model Number (10 to 20):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addNewAircraftJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Add New"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addNewAircraftJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="numberOfSeatsAvailableJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Number of Seats Available (1 to 100):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yearOfManufactureJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Year of Manufacture (2000 to 2017):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtManufacturerOfAircraftJTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtManufacturerOfAircraftJTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSerialNumberJTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSerialNumberJTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMaintenanceCertificateDateJTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtModelNumberJTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtYearOfManufactureJTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAirportLocatedInJTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDepartureTimeJTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDepartureTimeJTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtNumberOfSeatsAvailableJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastUpdatedJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Updated:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLastUpdatedJTextField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,117 @@
+0000000000000000000000000000000000000000 99aa585912c8c2e19476b6621cfde997925c6434 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1510362308 -0500	clone: from https://sreeragmsreenath@bitbucket.org/sreeragmsreenath/aed_finalproject_sreerag_eklavya_aahana.git
+99aa585912c8c2e19476b6621cfde997925c6434 e97736e78f2a071e160d40d3a9c01f01d182fc07 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1510363963 -0500	commit: Added Documentation for Project
+e97736e78f2a071e160d40d3a9c01f01d182fc07 b36e9e61faf205f9ca18ad95d298df16fc8116a2 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1510896149 -0500	commit: Added basic project
+b36e9e61faf205f9ca18ad95d298df16fc8116a2 6a600c5825f88a373f09b7199ad0961d54ff2272 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1511115791 -0500	commit: removed word file
+6a600c5825f88a373f09b7199ad0961d54ff2272 e9950e9ccebfaae7c3c8059646858fff2de2578e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1511115801 -0500	pull origin master: Merge made by the 'recursive' strategy.
+e9950e9ccebfaae7c3c8059646858fff2de2578e 6384ed0d48b7fed91bc1423f4fbd33224322ef23 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1511116253 -0500	commit: added logo
+6384ed0d48b7fed91bc1423f4fbd33224322ef23 fa046d5eb4b45b3c31a476e2cdf1ae7bd6e8aeae Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1511141328 -0500	commit: added jdbc
+fa046d5eb4b45b3c31a476e2cdf1ae7bd6e8aeae fa046d5eb4b45b3c31a476e2cdf1ae7bd6e8aeae Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512235605 -0500	reset: moving to HEAD
+fa046d5eb4b45b3c31a476e2cdf1ae7bd6e8aeae 4062ba155a048bc52e59ce7e7ebd4363102ba25e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512235616 -0500	pull origin master: Fast-forward
+4062ba155a048bc52e59ce7e7ebd4363102ba25e 4062ba155a048bc52e59ce7e7ebd4363102ba25e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512235629 -0500	checkout: moving from master to sreerag
+4062ba155a048bc52e59ce7e7ebd4363102ba25e 481104014f18576a42d8b217e09e63667115bb12 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512243916 -0500	commit: adding Inventory
+481104014f18576a42d8b217e09e63667115bb12 dc11fb2450fefafbb3c9bcb51791cf1153428ead Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512248916 -0500	commit: changes
+dc11fb2450fefafbb3c9bcb51791cf1153428ead bb55047d2a0139c595f010de29590a44fc90ff0b Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512248920 -0500	checkout: moving from sreerag to aahana
+bb55047d2a0139c595f010de29590a44fc90ff0b 32380690d91baf24273a37443e5d284ad0be00c4 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512249296 -0500	commit (merge): resolved merge
+32380690d91baf24273a37443e5d284ad0be00c4 dc11fb2450fefafbb3c9bcb51791cf1153428ead Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512249456 -0500	checkout: moving from aahana to sreerag
+dc11fb2450fefafbb3c9bcb51791cf1153428ead 568e82cc0f59fc76a03d0f840712dcedd6b6a3ad Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512249535 -0500	commit (merge): fixed merge:
+568e82cc0f59fc76a03d0f840712dcedd6b6a3ad 52932e2dfc250b745169c2943f3d4b2e0c4383da Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512253549 -0500	commit: added manufacturer functionality of Inventrory adding
+52932e2dfc250b745169c2943f3d4b2e0c4383da 52932e2dfc250b745169c2943f3d4b2e0c4383da Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512267264 -0500	reset: moving to HEAD
+52932e2dfc250b745169c2943f3d4b2e0c4383da cec4ac3482607370df34eaccc61b716a5973c349 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512267316 -0500	pull origin master: Fast-forward
+cec4ac3482607370df34eaccc61b716a5973c349 90b39540e4bfd0b87dfaa02eb9c1aa5a2b727631 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959155 -0500	commit: here we go again
+90b39540e4bfd0b87dfaa02eb9c1aa5a2b727631 7512f4a3cfbda7c317b5ed76a8729a9c201da283 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959483 -0500	commit (merge): lol
+7512f4a3cfbda7c317b5ed76a8729a9c201da283 0a16a60d39612a8aa471ac37d5d8285c56c4b1ca Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959498 -0500	checkout: moving from sreerag to origin
+0a16a60d39612a8aa471ac37d5d8285c56c4b1ca 4062ba155a048bc52e59ce7e7ebd4363102ba25e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959512 -0500	checkout: moving from 0a16a60d39612a8aa471ac37d5d8285c56c4b1ca to master
+4062ba155a048bc52e59ce7e7ebd4363102ba25e 4062ba155a048bc52e59ce7e7ebd4363102ba25e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959522 -0500	checkout: moving from master to sreerag2
+4062ba155a048bc52e59ce7e7ebd4363102ba25e 7512f4a3cfbda7c317b5ed76a8729a9c201da283 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512959907 -0500	checkout: moving from sreerag2 to sreerag
+7512f4a3cfbda7c317b5ed76a8729a9c201da283 d5f1dedd49ba96c1eca371de52a5b454cc83da97 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512965139 -0500	commit: Work Request ready
+d5f1dedd49ba96c1eca371de52a5b454cc83da97 a0c03d9bfaa3db3b9fbdcb9c755fce5bb745779b Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1512967665 -0500	commit: added Panel for cart
+a0c03d9bfaa3db3b9fbdcb9c755fce5bb745779b c2dcd6be39e38c06fd6e680d99ada4b29339f3c9 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513028068 -0500	commit: few system changes
+c2dcd6be39e38c06fd6e680d99ada4b29339f3c9 3e5439a7fd0dfe7b8da6d28f430df26789c735ed Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513028157 -0500	commit (merge): Fixed merge conflits
+3e5439a7fd0dfe7b8da6d28f430df26789c735ed 174e74dee097c744c72c6dfdcf14681407982a15 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513031761 -0500	commit: added email function
+174e74dee097c744c72c6dfdcf14681407982a15 001794d1a22f1818ea0e42f4bfa8f0ecc2e6feb1 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513031788 -0500	pull origin master: Merge made by the 'recursive' strategy.
+001794d1a22f1818ea0e42f4bfa8f0ecc2e6feb1 c6ca711eb80bd397fd9319a7566fa52cab061c7b Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513036060 -0500	commit: adding functionalities to manufacturer
+c6ca711eb80bd397fd9319a7566fa52cab061c7b cf56271362c203b2534b0aa9844342f14297c5c3 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039530 -0500	commit: making changes
+cf56271362c203b2534b0aa9844342f14297c5c3 090c8afc6c2ec8d5408c7bd2919a20ddecb12854 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039550 -0500	checkout: moving from sreerag to aahana2
+090c8afc6c2ec8d5408c7bd2919a20ddecb12854 cf56271362c203b2534b0aa9844342f14297c5c3 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039602 -0500	checkout: moving from aahana2 to sreerag
+cf56271362c203b2534b0aa9844342f14297c5c3 cf56271362c203b2534b0aa9844342f14297c5c3 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039711 -0500	reset: moving to HEAD
+cf56271362c203b2534b0aa9844342f14297c5c3 abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039735 -0500	commit: s
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee 638a385f6447e010f9ee03cb8cd7eff2b9d82dd7 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039899 -0500	commit (merge): changes
+638a385f6447e010f9ee03cb8cd7eff2b9d82dd7 abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513039964 -0500	reset: moving to abaf787
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee cf56271362c203b2534b0aa9844342f14297c5c3 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040007 -0500	checkout: moving from sreerag to cf56271
+cf56271362c203b2534b0aa9844342f14297c5c3 abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040036 -0500	checkout: moving from cf56271362c203b2534b0aa9844342f14297c5c3 to abaf787
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee cf56271362c203b2534b0aa9844342f14297c5c3 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040087 -0500	checkout: moving from abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee to cf56271
+cf56271362c203b2534b0aa9844342f14297c5c3 abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040109 -0500	checkout: moving from cf56271362c203b2534b0aa9844342f14297c5c3 to abaf787
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040116 -0500	checkout: moving from abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee to sreerag
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040150 -0500	reset: moving to abaf787
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee 4062ba155a048bc52e59ce7e7ebd4363102ba25e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040331 -0500	checkout: moving from sreerag to master
+4062ba155a048bc52e59ce7e7ebd4363102ba25e 81074b328c32841af305639a3db4cd7f847cc306 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040349 -0500	merge remotes/origin/sreerag: Merge made by the 'recursive' strategy.
+81074b328c32841af305639a3db4cd7f847cc306 81074b328c32841af305639a3db4cd7f847cc306 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040443 -0500	reset: moving to HEAD
+81074b328c32841af305639a3db4cd7f847cc306 5dfeb1ca3966b39b5caa9f5c444cfbe08675efb0 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513040586 -0500	commit (merge): fixing merge
+5dfeb1ca3966b39b5caa9f5c444cfbe08675efb0 abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513042290 -0500	checkout: moving from master to sreerag
+abaf787ddcbdb0ebdde916ef5f0cf24a17f947ee 5dfeb1ca3966b39b5caa9f5c444cfbe08675efb0 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513042307 -0500	pull origin master: Fast-forward
+5dfeb1ca3966b39b5caa9f5c444cfbe08675efb0 8ed1de5fd31d1722ac67a92375a33918efb62dca Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513048752 -0500	commit: transaction till distributor
+8ed1de5fd31d1722ac67a92375a33918efb62dca cf72756afd674106a4374b96a684a7d79f837546 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513048808 -0500	commit (merge): fixed merge conflits
+cf72756afd674106a4374b96a684a7d79f837546 299a51ecc98f600fce04be0b8256f84f6fe9f6f5 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513052242 -0500	commit: fixed Inventory Subtration
+299a51ecc98f600fce04be0b8256f84f6fe9f6f5 d5024f3a98a73532f4648de50d73647518b22414 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513052253 -0500	pull origin master: Merge made by the 'recursive' strategy.
+d5024f3a98a73532f4648de50d73647518b22414 7da3e37c8097bc2e3baa9d166f6297b82e580f68 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513053046 -0500	commit: made changes to inventory clerk panel
+7da3e37c8097bc2e3baa9d166f6297b82e580f68 39f10dd20f720e96f53113eba1eba214ec717ed0 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513053054 -0500	pull origin master: Merge made by the 'recursive' strategy.
+39f10dd20f720e96f53113eba1eba214ec717ed0 d72d1ebc9d813bf1a6198c034351622585b96401 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513087385 -0500	commit: Chnages to Manufacturing Panel
+d72d1ebc9d813bf1a6198c034351622585b96401 d72d1ebc9d813bf1a6198c034351622585b96401 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513087522 -0500	reset: moving to HEAD
+d72d1ebc9d813bf1a6198c034351622585b96401 de3fd2ec72d526911fceee27de5beffbb9c0a418 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513087558 -0500	commit: adding changes
+de3fd2ec72d526911fceee27de5beffbb9c0a418 d4f4e10da786e89312b60e9c9e687aa6e2170c50 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513087725 -0500	commit (merge): Rsolved pull
+d4f4e10da786e89312b60e9c9e687aa6e2170c50 f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513088811 -0500	commit: Changes
+f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513088924 -0500	reset: moving to HEAD
+f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513089131 -0500	reset: moving to HEAD
+f4c42e3c0bbbdc8d67d5a6f52d1dc0c6752b4f2a 674b2798da75a0d2afa66d50c27bf0597039a742 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513089249 -0500	commit: all files
+674b2798da75a0d2afa66d50c27bf0597039a742 67682082040e6b0030bcfb45532a53deac273f41 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513089940 -0500	commit: removed unnecessary files
+67682082040e6b0030bcfb45532a53deac273f41 7a637f33c7f7830b9a9c3d0b3a149bab7b6c75a5 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090134 -0500	commit: added all files
+7a637f33c7f7830b9a9c3d0b3a149bab7b6c75a5 e16b699048df184c92bcdaefcf748ef1c0639772 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090499 -0500	commit: changed files
+e16b699048df184c92bcdaefcf748ef1c0639772 0512fecca3e114111b1fe27c7a23205ba1950882 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090562 -0500	commit: removed more files
+0512fecca3e114111b1fe27c7a23205ba1950882 46554e4369cc7ca25df84002c69666ae3d600289 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090619 -0500	commit: got back the files
+46554e4369cc7ca25df84002c69666ae3d600289 fb3ac1f4dfe3acdfe1c5993a95224a242d95d4dc Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090706 -0500	checkout: moving from sreerag to eklavya
+fb3ac1f4dfe3acdfe1c5993a95224a242d95d4dc a9ee9026f33708eb0d567470dc41126ad4ac13fc Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090740 -0500	pull origin eklavya: Fast-forward
+a9ee9026f33708eb0d567470dc41126ad4ac13fc a9ee9026f33708eb0d567470dc41126ad4ac13fc Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090784 -0500	reset: moving to HEAD
+a9ee9026f33708eb0d567470dc41126ad4ac13fc d2ca76b2f11e3d89e339b65e67cda87db47501b4 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090811 -0500	commit: fixing files'
+d2ca76b2f11e3d89e339b65e67cda87db47501b4 090c8afc6c2ec8d5408c7bd2919a20ddecb12854 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090891 -0500	checkout: moving from eklavya to aahana2
+090c8afc6c2ec8d5408c7bd2919a20ddecb12854 090c8afc6c2ec8d5408c7bd2919a20ddecb12854 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090944 -0500	reset: moving to HEAD
+090c8afc6c2ec8d5408c7bd2919a20ddecb12854 d2ca76b2f11e3d89e339b65e67cda87db47501b4 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513090956 -0500	checkout: moving from aahana2 to eklavya
+d2ca76b2f11e3d89e339b65e67cda87db47501b4 489359fb3dbbd3b69eebe9fdb1bcc871370041d8 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091006 -0500	commit: file fix
+489359fb3dbbd3b69eebe9fdb1bcc871370041d8 136f98cb91a3fd6514d52dc27b064b359bf9ec65 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091237 -0500	reset: moving to origin/master
+136f98cb91a3fd6514d52dc27b064b359bf9ec65 817338c6299517a53bfec7f3749348cbc83d8d89 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091267 -0500	commit: changes
+817338c6299517a53bfec7f3749348cbc83d8d89 2fce9e14397f17a94e1cb6556d134167630be8a7 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091303 -0500	checkout: moving from eklavya to khajanchi
+2fce9e14397f17a94e1cb6556d134167630be8a7 136f98cb91a3fd6514d52dc27b064b359bf9ec65 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091331 -0500	reset: moving to origin/master
+136f98cb91a3fd6514d52dc27b064b359bf9ec65 7a3f39726fcb5228ecf4b96a196312c6ef91faf1 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091341 -0500	commit: fixing file merge
+7a3f39726fcb5228ecf4b96a196312c6ef91faf1 46554e4369cc7ca25df84002c69666ae3d600289 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091489 -0500	checkout: moving from khajanchi to sreerag
+46554e4369cc7ca25df84002c69666ae3d600289 136f98cb91a3fd6514d52dc27b064b359bf9ec65 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513091507 -0500	pull origin master: Fast-forward
+136f98cb91a3fd6514d52dc27b064b359bf9ec65 d9748d69df43a6ba55f2414eedfef133e1d78bd8 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513093648 -0500	commit: added schedule panel
+d9748d69df43a6ba55f2414eedfef133e1d78bd8 d8d656c63511867f391df1b7b7c994cdb0f4e625 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513103512 -0500	commit: added child vaccine panel and history
+d8d656c63511867f391df1b7b7c994cdb0f4e625 1f57215dc00b638f300e619fbe1180e98e38626f Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513108611 -0500	commit: added bar char
+1f57215dc00b638f300e619fbe1180e98e38626f 8b1e24480998c6d23d5f9d641869e4579d7f748a Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513108620 -0500	pull origin master: Merge made by the 'recursive' strategy.
+8b1e24480998c6d23d5f9d641869e4579d7f748a 20e4cf8f206f74a0c83c6b16274933822b632909 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513118628 -0500	commit: added Pharmacy level code
+20e4cf8f206f74a0c83c6b16274933822b632909 52467d355a34e8dc536f2c1c7ca893240b2a2c5f Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513118684 -0500	commit (merge): fixed merge
+52467d355a34e8dc536f2c1c7ca893240b2a2c5f ba3348fd09b339ac31af5c05ac3cbcd98e2fdd83 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513124294 -0500	commit: staging for UI edits
+ba3348fd09b339ac31af5c05ac3cbcd98e2fdd83 e5538ccf8f2048b556b482c077265c78f80d1e73 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513124332 -0500	commit (merge): fixed merge
+e5538ccf8f2048b556b482c077265c78f80d1e73 425c1dc789989e05664643286356b2dae7e6fd0e Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513125967 -0500	commit: to pull
+425c1dc789989e05664643286356b2dae7e6fd0e 3df6b4fd0c0288a21c411c9c87497eb8139b708b Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513126005 -0500	commit (merge): merge
+3df6b4fd0c0288a21c411c9c87497eb8139b708b 4109dfba1a0abc97f71c238a81616ad48d42168b Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513131010 -0500	commit: added validations to manufacturer
+4109dfba1a0abc97f71c238a81616ad48d42168b f56bdd940f4caef8083985e7cbed84a734980580 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513131100 -0500	commit (merge): fixed Merge
+f56bdd940f4caef8083985e7cbed84a734980580 177140f2fcb79f39eda94bc6349429b62bdf9b53 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513132247 -0500	commit: fixed flow of inventory
+177140f2fcb79f39eda94bc6349429b62bdf9b53 2151f7e9b2ae82a6b44f45c909575e91ec46b0f4 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513132279 -0500	commit (merge): fixed Merge
+2151f7e9b2ae82a6b44f45c909575e91ec46b0f4 8c3d5fd66222526371ef785c0878fcf9a7f76628 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513132727 -0500	pull origin master: Fast-forward
+8c3d5fd66222526371ef785c0878fcf9a7f76628 6125e6c5c45d9cd89c8b97b2ca02bdb0d838d52d Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513134000 -0500	commit: made inventory changes to receptionist
+6125e6c5c45d9cd89c8b97b2ca02bdb0d838d52d df7b4a05083a4db6a5bf18357cf8ad7dc688356c Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513136002 -0500	commit: added child coming up table
+df7b4a05083a4db6a5bf18357cf8ad7dc688356c 4e92db147c3a2735991d266ed70f7ec75ec4b84f Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513136157 -0500	commit: done with table check
+4e92db147c3a2735991d266ed70f7ec75ec4b84f 3cd39f70a8f6fa35fa78561e6aacc1ed77986b18 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513136190 -0500	commit (merge): all changes done
+3cd39f70a8f6fa35fa78561e6aacc1ed77986b18 09cf0802efd0a0c0804f53ebec4b3f18a99f4822 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513137683 -0500	commit: added database connections to add diseases
+09cf0802efd0a0c0804f53ebec4b3f18a99f4822 4efa06d365439a41c1d09e28d4ef730e5fd462f9 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513137715 -0500	commit (merge): added Database connection merge
+4efa06d365439a41c1d09e28d4ef730e5fd462f9 147e682de72a9d76aa592c141b62efa2a43cd239 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513137827 -0500	commit: removed sc
+147e682de72a9d76aa592c141b62efa2a43cd239 08ba533ca4eba7bbd893f328d4c2cbfc433b3ce6 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513137835 -0500	pull origin master: Merge made by the 'recursive' strategy.
+08ba533ca4eba7bbd893f328d4c2cbfc433b3ce6 58add6f5078fe73e496547ea36f3e066e1de0395 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513137942 -0500	commit: merge
+58add6f5078fe73e496547ea36f3e066e1de0395 bb4c874a881b17883558be330c892dc7d6a46690 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513139905 -0500	commit: Email is ready and loaded
+bb4c874a881b17883558be330c892dc7d6a46690 1945463b5a5337933634c5e8a2cba052b81f500d Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513139939 -0500	commit (merge): added merge
+1945463b5a5337933634c5e8a2cba052b81f500d 923546e7ed4d306664330de7fce6aa86c9c0e4f6 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513140669 -0500	commit: small back btn fix
+923546e7ed4d306664330de7fce6aa86c9c0e4f6 bea589e4d47cdf02aedaa1cac433aff2818b7557 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513140688 -0500	pull origin master: Merge made by the 'recursive' strategy.
+bea589e4d47cdf02aedaa1cac433aff2818b7557 f8d7f75437000063f5ca413a68d0d7375c43cfe6 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513140829 -0500	commit: adding ppt
+f8d7f75437000063f5ca413a68d0d7375c43cfe6 82b3d5be2f501cf3402792b68566d9e04e1d82c4 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513140838 -0500	pull origin master: Merge made by the 'recursive' strategy.
+82b3d5be2f501cf3402792b68566d9e04e1d82c4 e9ea0d0a6c2e7e819160f1cd9b69584fff88e1d9 Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513142342 -0500	commit: added key stroke check and extra warning aceept panel
+e9ea0d0a6c2e7e819160f1cd9b69584fff88e1d9 089cb88d297744e35659206e963ac03847f6546c Sreerag Mandakathil <mandakathil.s@husky.neu.edu> 1513142350 -0500	pull origin master: Merge made by the 'recursive' strategy.

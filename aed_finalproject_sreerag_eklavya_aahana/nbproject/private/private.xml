@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/pharmacistRole/InventoryManagementPharmasistWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/DoctorRole/DoctorWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/Manufacture/ManufactureInventoryClerkWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageDiseasesJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/ProcessWorkRequestJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/EcoSystem.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Organization/PharmacistOrganization.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/Manufacture/ManageVaccinationsInventoryJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/DoctorRole/RequestVacinationJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageEnterpriseJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/ProcessWorkRequestJPanel1.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/WorkQueue/WorkRequest.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/Manufacture/ManufactureRequestWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/WorkQueue/VaccinationRequest.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/SystemAdminWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/ReceptionistRole/ReceptionistWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/pharmacistRole/PharmacyInventoryClerkWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/DiseasesDrugs/DiseasesDirectory.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/InventoryClerkWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Inventory/InventoryItem.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/Manufacture/ProcessWorkRequestJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/ReceptionistRole/CustomerRecordEntryJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Customer/VaccineHistoryCard.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/InventoryManagementWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/DiseasesDrugs/Vaccination.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/RequestVacinationJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/ReceptionistRole/CustomerRecordUpdateJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageDiseasesVaccinationsJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/InventoryClerk/InventoryClerkWorkAreaMenuJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/DiseasesDrugs/VaccinationDirectory.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Inventory/InventoryDirectory.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageVaccinationsJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Customer/ChildPortfolio.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageScheduleIntervalsJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/pharmacistRole/RequestVacinationJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Role/InventoryClerkRole.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/WorkQueue/WorkQueue.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/ConfigureASystem.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageNetworkJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Mail.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/Manufacture/ManufactureInventoryManagementWorkAreaJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/nbproject/build-impl.xml</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/ReceptionistRole/CustomerRecordHistoryJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/AnalyticsJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/SystemAdminWorkArea/ManageEnterpriseAdminJPanel.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/Business/Customer/VaccineAdministered.java</file>
+            <file>file:/E:/Academics/North%20Eastern%20University%20Boston/Academics/AED/Assignment/asg1/aed_finalproject_sreerag_eklavya_aahana/src/userinterface/pharmacistRole/PharmacyRequestWorkAreaJPanel.java</file>
+        </group>
+    </open-files>
+</project-private>

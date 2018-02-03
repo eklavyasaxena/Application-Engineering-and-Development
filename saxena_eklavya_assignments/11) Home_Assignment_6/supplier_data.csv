@@ -1,0 +1,5 @@
+HP,Scanner,20,90,Printer,30,100,Laptop,40,110,ColoredPrinter,50,120,PhotoCopier,60,130
+Canon,Scanner,40,30,Printer,50,40,Laptop,60,50,ColoredPrinter,70,60,PhotoCopier,80,70
+Fujitsu,Scanner,100,60,Printer,110,70,Laptop,120,80,ColoredPrinter,130,90,PhotoCopier,140,100
+CyberWare,Scanner,150,80,Printer,160,90,Laptop,170,100,ColoredPrinter,180,110,PhotoCopier,190,120
+Scanny,Scanner,50,30,Printer,60,40,Laptop,70,50,ColoredPrinter,80,80,PhotoCopier,90,90

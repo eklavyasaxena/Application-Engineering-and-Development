@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="14) Lab_8_Demo_Using DB4O">
+  <ClassDiagramComponents>
+    <Class name="ConfigureASystem" package="Business" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="configure" returnType="EcoSystem" visibility="public" isStatic="true"/>
+      </Methods>
+    </Class>
+    <Class name="DB4OUtil" package="Business.DB4OUtil" visibility="public" xPosition="20.0" yPosition="179.0">
+      <Fields>
+        <Field name="FILENAME" type="String" visibility="private" isStatic="true" isFinal="true"/>
+        <Field name="dB4OUtil" type="DB4OUtil" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getInstance" returnType="DB4OUtil" visibility="public" isStatic="true" isSynchronized="true"/>
+        <Method name="shutdown" returnType="void" visibility="protected" isStatic="true" isSynchronized="true">
+          <Argument type="ObjectContainer" name="conn"/>
+        </Method>
+        <Method name="createConnection" returnType="ObjectContainer" visibility="private"/>
+        <Method name="storeSystem" returnType="void" visibility="public" isSynchronized="true">
+          <Argument type="EcoSystem" name="system"/>
+        </Method>
+        <Method name="retrieveSystem" returnType="EcoSystem" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="EcoSystem" package="Business" visibility="public" xPosition="272.0" yPosition="20.0">
+      <Fields>
+        <Field name="business" type="EcoSystem" visibility="private" isStatic="true"/>
+        <Field name="networkList" type="ArrayList&lt;Network&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="private"/>
+      </Constructors>
+      <Methods>
+        <Method name="getInstance" returnType="EcoSystem" visibility="public" isStatic="true"/>
+        <Method name="getNetworkList" returnType="ArrayList&lt;Network&gt;" visibility="public"/>
+        <Method name="createAndAddNetwork" returnType="Network" visibility="public"/>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+        <Method name="checkIfUsernameIsUnique" returnType="boolean" visibility="public">
+          <Argument type="String" name="username"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Employee" package="Business.Employee" visibility="public" xPosition="2036.0" yPosition="775.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="id" type="int" visibility="private"/>
+        <Field name="count" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getId" returnType="int" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="EmployeeDirectory" package="Business.Employee" visibility="public" xPosition="2036.0" yPosition="581.0">
+      <Fields>
+        <Field name="employeeList" type="ArrayList&lt;Employee&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getEmployeeList" returnType="ArrayList&lt;Employee&gt;" visibility="public"/>
+        <Method name="createEmployee" returnType="Employee" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Enterprise" package="Business.Enterprise" visibility="public" isAbstract="true" xPosition="1415.0" yPosition="38.0">
+      <Fields>
+        <Field name="enterpriseType" type="EnterpriseType" visibility="private"/>
+        <Field name="organizationDirectory" type="OrganizationDirectory" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="EnterpriseType" name="type"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getEnterpriseType" returnType="EnterpriseType" visibility="public"/>
+        <Method name="getOrganizationDirectory" returnType="OrganizationDirectory" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="EnterpriseDirectory" package="Business.Enterprise" visibility="public" xPosition="1078.0" yPosition="20.0">
+      <Fields>
+        <Field name="enterpriseList" type="ArrayList&lt;Enterprise&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getEnterpriseList" returnType="ArrayList&lt;Enterprise&gt;" visibility="public"/>
+        <Method name="createAndAddEnterprise" returnType="Enterprise" visibility="public">
+          <Argument type="String" name="name"/>
+          <Argument type="Enterprise.EnterpriseType" name="type"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="HospitalEnterprise" package="Business.Enterprise" visibility="public" xPosition="2016.0" yPosition="119.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Network" package="Business.Network" visibility="public" xPosition="861.0" yPosition="20.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="enterpriseDirectory" type="EnterpriseDirectory" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getEnterpriseDirectory" returnType="EnterpriseDirectory" visibility="public"/>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="AdminOrganization" package="Business.Organization" visibility="public" xPosition="1134.0" yPosition="1280.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="DoctorOrganization" package="Business.Organization" visibility="public" xPosition="1527.0" yPosition="1392.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="LabOrganization" package="Business.Organization" visibility="public" xPosition="1329.0" yPosition="1331.0">
+      <Fields/>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Organization" package="Business.Organization" visibility="public" isAbstract="true" xPosition="1462.0" yPosition="497.0">
+      <Fields>
+        <Field name="name" type="String" visibility="private"/>
+        <Field name="workQueue" type="WorkQueue" visibility="private"/>
+        <Field name="employeeDirectory" type="EmployeeDirectory" visibility="private"/>
+        <Field name="userAccountDirectory" type="UserAccountDirectory" visibility="private"/>
+        <Field name="organizationID" type="int" visibility="private"/>
+        <Field name="counter" type="int" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="String" name="name"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getSupportedRole" returnType="ArrayList&lt;Role&gt;" visibility="public" isAbstract="true"/>
+        <Method name="getUserAccountDirectory" returnType="UserAccountDirectory" visibility="public"/>
+        <Method name="getOrganizationID" returnType="int" visibility="public"/>
+        <Method name="getEmployeeDirectory" returnType="EmployeeDirectory" visibility="public"/>
+        <Method name="getName" returnType="String" visibility="public"/>
+        <Method name="getWorkQueue" returnType="WorkQueue" visibility="public"/>
+        <Method name="setName" returnType="void" visibility="public">
+          <Argument type="String" name="name"/>
+        </Method>
+        <Method name="setWorkQueue" returnType="void" visibility="public">
+          <Argument type="WorkQueue" name="workQueue"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="OrganizationDirectory" package="Business.Organization" visibility="public" xPosition="1602.0" yPosition="343.0">
+      <Fields>
+        <Field name="organizationList" type="ArrayList&lt;Organization&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getOrganizationList" returnType="ArrayList&lt;Organization&gt;" visibility="public"/>
+        <Method name="createOrganization" returnType="Organization" visibility="public">
+          <Argument type="Type" name="type"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="AdminRole" package="Business.Role" visibility="public" xPosition="250.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="createWorkArea" returnType="JPanel" visibility="public">
+          <Argument type="JPanel" name="userProcessContainer"/>
+          <Argument type="UserAccount" name="account"/>
+          <Argument type="Organization" name="organization"/>
+          <Argument type="Enterprise" name="enterprise"/>
+          <Argument type="EcoSystem" name="business"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="DoctorRole" package="Business.Role" visibility="public" xPosition="1171.0" yPosition="1730.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="createWorkArea" returnType="JPanel" visibility="public">
+          <Argument type="JPanel" name="userProcessContainer"/>
+          <Argument type="UserAccount" name="account"/>
+          <Argument type="Organization" name="organization"/>
+          <Argument type="Enterprise" name="enterprise"/>
+          <Argument type="EcoSystem" name="business"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="LabAssistantRole" package="Business.Role" visibility="public" xPosition="353.0" yPosition="1730.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="createWorkArea" returnType="JPanel" visibility="public">
+          <Argument type="JPanel" name="userProcessContainer"/>
+          <Argument type="UserAccount" name="account"/>
+          <Argument type="Organization" name="organization"/>
+          <Argument type="Enterprise" name="enterprise"/>
+          <Argument type="EcoSystem" name="business"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Role" package="Business.Role" visibility="public" isAbstract="true" xPosition="704.0" yPosition="1603.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="createWorkArea" returnType="JPanel" visibility="public" isAbstract="true">
+          <Argument type="JPanel" name="userProcessContainer"/>
+          <Argument type="UserAccount" name="account"/>
+          <Argument type="Organization" name="organization"/>
+          <Argument type="Enterprise" name="enterprise"/>
+          <Argument type="EcoSystem" name="business"/>
+        </Method>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="SystemAdminRole" package="Business.Role" visibility="public" xPosition="20.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="createWorkArea" returnType="JPanel" visibility="public">
+          <Argument type="JPanel" name="userProcessContainer"/>
+          <Argument type="UserAccount" name="account"/>
+          <Argument type="Organization" name="organization"/>
+          <Argument type="Enterprise" name="enterprise"/>
+          <Argument type="EcoSystem" name="system"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="UserAccount" package="Business.UserAccount" visibility="public" xPosition="795.0" yPosition="1016.0">
+      <Fields>
+        <Field name="username" type="String" visibility="private"/>
+        <Field name="password" type="String" visibility="private"/>
+        <Field name="employee" type="Employee" visibility="private"/>
+        <Field name="role" type="Role" visibility="private"/>
+        <Field name="workQueue" type="WorkQueue" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getUsername" returnType="String" visibility="public"/>
+        <Method name="setUsername" returnType="void" visibility="public">
+          <Argument type="String" name="username"/>
+        </Method>
+        <Method name="getPassword" returnType="String" visibility="public"/>
+        <Method name="setPassword" returnType="void" visibility="public">
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="getRole" returnType="Role" visibility="public"/>
+        <Method name="setEmployee" returnType="void" visibility="public">
+          <Argument type="Employee" name="employee"/>
+        </Method>
+        <Method name="setRole" returnType="void" visibility="public">
+          <Argument type="Role" name="role"/>
+        </Method>
+        <Method name="getEmployee" returnType="Employee" visibility="public"/>
+        <Method name="getWorkQueue" returnType="WorkQueue" visibility="public"/>
+        <Method name="toString" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="UserAccountDirectory" package="Business.UserAccount" visibility="public" xPosition="674.0" yPosition="379.0">
+      <Fields>
+        <Field name="userAccountList" type="ArrayList&lt;UserAccount&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getUserAccountList" returnType="ArrayList&lt;UserAccount&gt;" visibility="public"/>
+        <Method name="authenticateUser" returnType="UserAccount" visibility="public">
+          <Argument type="String" name="username"/>
+          <Argument type="String" name="password"/>
+        </Method>
+        <Method name="createUserAccount" returnType="UserAccount" visibility="public">
+          <Argument type="String" name="username"/>
+          <Argument type="String" name="password"/>
+          <Argument type="Employee" name="employee"/>
+          <Argument type="Role" name="role"/>
+        </Method>
+        <Method name="checkIfUsernameIsUnique" returnType="boolean" visibility="public">
+          <Argument type="String" name="username"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="LabTestWorkRequest" package="Business.WorkQueue" visibility="public" xPosition="2036.0" yPosition="1248.0">
+      <Fields>
+        <Field name="testResult" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="getTestResult" returnType="String" visibility="public"/>
+        <Method name="setTestResult" returnType="void" visibility="public">
+          <Argument type="String" name="testResult"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="WorkQueue" package="Business.WorkQueue" visibility="public" xPosition="2036.0" yPosition="938.0">
+      <Fields>
+        <Field name="workRequestList" type="ArrayList&lt;WorkRequest&gt;" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getWorkRequestList" returnType="ArrayList&lt;WorkRequest&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="WorkRequest" package="Business.WorkQueue" visibility="public" isAbstract="true" xPosition="2036.0" yPosition="1074.0">
+      <Fields>
+        <Field name="message" type="String" visibility="private"/>
+        <Field name="sender" type="UserAccount" visibility="private"/>
+        <Field name="receiver" type="UserAccount" visibility="private"/>
+        <Field name="status" type="String" visibility="private"/>
+        <Field name="requestDate" type="Date" visibility="private"/>
+        <Field name="resolveDate" type="Date" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getMessage" returnType="String" visibility="public"/>
+        <Method name="setMessage" returnType="void" visibility="public">
+          <Argument type="String" name="message"/>
+        </Method>
+        <Method name="getSender" returnType="UserAccount" visibility="public"/>
+        <Method name="setSender" returnType="void" visibility="public">
+          <Argument type="UserAccount" name="sender"/>
+        </Method>
+        <Method name="getReceiver" returnType="UserAccount" visibility="public"/>
+        <Method name="setReceiver" returnType="void" visibility="public">
+          <Argument type="UserAccount" name="receiver"/>
+        </Method>
+        <Method name="getStatus" returnType="String" visibility="public"/>
+        <Method name="setStatus" returnType="void" visibility="public">
+          <Argument type="String" name="status"/>
+        </Method>
+        <Method name="getRequestDate" returnType="Date" visibility="public"/>
+        <Method name="setRequestDate" returnType="void" visibility="public">
+          <Argument type="Date" name="requestDate"/>
+        </Method>
+        <Method name="getResolveDate" returnType="Date" visibility="public"/>
+        <Method name="setResolveDate" returnType="void" visibility="public">
+          <Argument type="Date" name="resolveDate"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="MainJFrame" package="UserInterface" visibility="public" xPosition="132.0" yPosition="539.0">
+      <Fields>
+        <Field name="system" type="EcoSystem" visibility="private"/>
+        <Field name="dB4OUtil" type="DB4OUtil" visibility="private"/>
+        <Field name="container" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jLabel1" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jLabel2" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="jPanel1" type="javax.swing.JPanel" visibility="private"/>
+        <Field name="jSplitPane1" type="javax.swing.JSplitPane" visibility="private"/>
+        <Field name="loginJButton" type="javax.swing.JButton" visibility="private"/>
+        <Field name="loginJLabel" type="javax.swing.JLabel" visibility="private"/>
+        <Field name="logoutJButton" type="javax.swing.JButton" visibility="private"/>
+        <Field name="passwordField" type="javax.swing.JPasswordField" visibility="private"/>
+        <Field name="userNameJTextField" type="javax.swing.JTextField" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="initComponents" returnType="// &lt;editor-fold defaultstate=&quot;collapsed&quot; desc=&quot;Generated Code&quot;&gt;//GEN-BEGIN:initComponents void" visibility="private"/>
+        <Method name="loginJButtonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="logoutJButtonActionPerformed" returnType="void" visibility="private">
+          <Argument type="java.awt.event.ActionEvent" name="evt"/>
+        </Method>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="workQueue" source="Business.Organization.Organization" target="Business.WorkQueue.WorkQueue" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="WorkQueue"/>
+    <HasRelation name="employeeDirectory" source="Business.Organization.Organization" target="Business.Employee.EmployeeDirectory" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Enterprise.Enterprise" target="Business.Organization.Organization"/>
+    <UseRelation source="Business.Organization.LabOrganization" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.DB4OUtil.DB4OUtil" target="Business.DB4OUtil.DB4OUtil" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Role.LabAssistantRole" target="Business.Role.Role"/>
+    <UseRelation source="Business.Enterprise.EnterpriseDirectory" target="Business.Enterprise.Enterprise" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="userAccountDirectory" source="Business.Organization.Organization" target="Business.UserAccount.UserAccountDirectory" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Role.Role" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Organization.AdminOrganization" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Network.Network" target="Business.Enterprise.EnterpriseDirectory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Organization.AdminOrganization" target="Business.Organization.Organization"/>
+    <HasRelation name="receiver" source="Business.WorkQueue.WorkRequest" target="Business.UserAccount.UserAccount" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Organization.LabOrganization" target="Business.Organization.Organization"/>
+    <HasRelation name="networkList" source="Business.EcoSystem" target="Business.Network.Network" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Network&gt;"/>
+    <UseRelation source="Business.EcoSystem" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.EcoSystem" target="Business.Network.Network" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Role.LabAssistantRole" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="business" source="Business.EcoSystem" target="Business.EcoSystem" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="workRequestList" source="Business.WorkQueue.WorkQueue" target="Business.WorkQueue.WorkRequest" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;WorkRequest&gt;"/>
+    <HasRelation name="system" source="UserInterface.MainJFrame" target="Business.EcoSystem" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="sender" source="Business.WorkQueue.WorkRequest" target="Business.UserAccount.UserAccount" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="dB4OUtil" source="UserInterface.MainJFrame" target="Business.DB4OUtil.DB4OUtil" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Organization.Organization" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Enterprise.Enterprise" target="Business.Enterprise.Enterprise" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Organization.OrganizationDirectory" target="Business.Organization.Organization" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Employee.EmployeeDirectory" target="Business.Employee.Employee" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="employee" source="Business.UserAccount.UserAccount" target="Business.Employee.Employee" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.WorkQueue.WorkRequest" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="employeeList" source="Business.Employee.EmployeeDirectory" target="Business.Employee.Employee" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Employee&gt;"/>
+    <UseRelation source="Business.Enterprise.Enterprise" target="Business.Organization.OrganizationDirectory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Role.DoctorRole" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="enterpriseDirectory" source="Business.Network.Network" target="Business.Enterprise.EnterpriseDirectory" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="organizationList" source="Business.Organization.OrganizationDirectory" target="Business.Organization.Organization" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Organization&gt;"/>
+    <IsRelation name="is" source="Business.Role.SystemAdminRole" target="Business.Role.Role"/>
+    <UseRelation source="Business.Organization.Organization" target="Business.Employee.EmployeeDirectory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Enterprise.HospitalEnterprise" target="Business.Enterprise.Enterprise"/>
+    <UseRelation source="Business.Organization.Organization" target="Business.UserAccount.UserAccountDirectory" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="workQueue" source="Business.UserAccount.UserAccount" target="Business.WorkQueue.WorkQueue" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="WorkQueue"/>
+    <UseRelation source="Business.UserAccount.UserAccount" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Role.AdminRole" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="dB4OUtil" source="Business.DB4OUtil.DB4OUtil" target="Business.DB4OUtil.DB4OUtil" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Organization.DoctorOrganization" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Role.SystemAdminRole" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="organizationDirectory" source="Business.Enterprise.Enterprise" target="Business.Organization.OrganizationDirectory" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.Enterprise.HospitalEnterprise" target="Business.Role.Role" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.ConfigureASystem" target="Business.EcoSystem" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="userAccountList" source="Business.UserAccount.UserAccountDirectory" target="Business.UserAccount.UserAccount" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;UserAccount&gt;"/>
+    <UseRelation source="Business.WorkQueue.WorkQueue" target="Business.WorkQueue.WorkRequest" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="role" source="Business.UserAccount.UserAccount" target="Business.Role.Role" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.UserAccount.UserAccount" target="Business.WorkQueue.WorkQueue" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Role.AdminRole" target="Business.Role.Role"/>
+    <UseRelation source="Business.UserAccount.UserAccountDirectory" target="Business.UserAccount.UserAccount" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="enterpriseList" source="Business.Enterprise.EnterpriseDirectory" target="Business.Enterprise.Enterprise" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="ArrayList&lt;Enterprise&gt;"/>
+    <UseRelation source="Business.DB4OUtil.DB4OUtil" target="Business.EcoSystem" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="Business.UserAccount.UserAccount" target="Business.Employee.Employee" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.WorkQueue.LabTestWorkRequest" target="Business.WorkQueue.WorkRequest"/>
+    <IsRelation name="is" source="Business.EcoSystem" target="Business.Organization.Organization"/>
+    <IsRelation name="is" source="Business.Role.DoctorRole" target="Business.Role.Role"/>
+    <UseRelation source="Business.Organization.Organization" target="Business.WorkQueue.WorkQueue" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Business.Organization.DoctorOrganization" target="Business.Organization.Organization"/>
+    <UseRelation source="Business.EcoSystem" target="Business.EcoSystem" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

@@ -1,0 +1,129 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Business.UserAccount;
+
+import Business.EcoSystem;
+import Business.Employee.Employee;
+import Business.Enterprise.Enterprise;
+import Business.Network.Network;
+import Business.Role.AdminRole;
+import Business.Role.Role;
+import java.io.UnsupportedEncodingException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import javax.swing.JOptionPane;
+
+/**
+ *
+ * @author raunak
+ */
+public class UserAccountDirectory {
+
+    private ArrayList<UserAccount> userAccountList;
+
+    public UserAccountDirectory() {
+        userAccountList = new ArrayList<>();
+    }
+
+    public ArrayList<UserAccount> getUserAccountList() {
+        return userAccountList;
+    }
+
+    public UserAccount authenticateUser(String username, String password) {
+        for (UserAccount ua : userAccountList) {
+            if (ua.getUsername().equals(username) && ua.getPassword().equals(password)) {
+                return ua;
+            }
+        }
+        return null;
+    }
+
+    public UserAccount createUserAccount(String username, String password, Employee employee, Role role, EcoSystem eco) throws UnsupportedEncodingException {
+
+        for (Network net : eco.getNetworkList()) {
+            System.out.println(net.getName());
+            for (Enterprise ent : net.getEnterpriseDirectory().getEnterpriseList()) {
+                System.out.println(ent.getName());
+                for (UserAccount ua : ent.getUserAccountDirectory().getUserAccountList()) {
+                    System.out.println(ua.getUsername());
+                    if (ua.getUsername().equalsIgnoreCase(username)) {
+                        return null;
+                    }
+                }
+            }
+        }
+        
+        String hashPassword = hash_SHA_512_SecurePassword(password, "ALERT");
+        UserAccount userAccount = new UserAccount();
+        userAccount.setUsername(username);
+        userAccount.setPassword(password);
+        userAccount.setEmployee(employee);
+        userAccount.setRole(role);
+        userAccountList.add(userAccount);
+        return userAccount;
+    }
+
+    public boolean checkIfUsernameIsUnique(String username) {
+        for (UserAccount ua : userAccountList) {
+            if (ua.getUsername().equals(username)) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public String hash_SHA_512_SecurePassword(String pswdToHash, String salt) throws UnsupportedEncodingException {
+        String generatedPassword = null;
+        try {
+            MessageDigest md = MessageDigest.getInstance("SHA-512");
+            md.update(salt.getBytes("UTF-8"));
+            byte[] bytes = md.digest(pswdToHash.getBytes("UTF-8"));
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < bytes.length; i++) {
+                sb.append(Integer.toString((bytes[i] & 0xff) + 0x100, 16).substring(1));
+            }
+            generatedPassword = sb.toString();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        }
+        return generatedPassword;
+    }
+
+    public void deleteUserAccount(UserAccount userAccount) {
+        userAccountList.remove(userAccount);
+    }
+    
+    
+    public UserAccount updateUserAccount(UserAccount userAccount, String username, String password, Employee employee, AdminRole adminRole, EcoSystem system) throws UnsupportedEncodingException {
+    
+         userAccountList.remove(username);
+        
+        for (Network net : system.getNetworkList()) {
+            System.out.println(net.getName());
+            for (Enterprise ent : net.getEnterpriseDirectory().getEnterpriseList()) {
+                System.out.println(ent.getName());
+                for (UserAccount ua : ent.getUserAccountDirectory().getUserAccountList()) {
+                    System.out.println(ua.getUsername());
+                    if (ua.getUsername().equalsIgnoreCase(username)) {
+                        return null;
+                    }
+                }
+            }
+        }
+        
+        
+        String hashPassword = hash_SHA_512_SecurePassword(password,"ALERT");
+      
+        userAccount.setUsername(username);
+        userAccount.setPassword(password);
+        userAccount.setEmployee(employee);
+      userAccount.setRole(adminRole);
+        System.out.println("user");
+       // System.out.println(userAccountList.add(userAccount));
+        return userAccount;
+    
+    }
+}

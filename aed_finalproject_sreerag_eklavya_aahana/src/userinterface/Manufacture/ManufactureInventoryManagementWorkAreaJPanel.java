@@ -1,0 +1,453 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package userinterface.Manufacture;
+
+import Business.DiseasesDrugs.Vaccination;
+import Business.EcoSystem;
+import Business.Enterprise.Enterprise;
+import Business.Inventory.InventoryItem;
+import Business.Network.Network;
+import Business.Organization.ManufactureInventoryClerkOrganization;
+import Business.Organization.Organization;
+import Business.UserAccount.UserAccount;
+import java.awt.CardLayout;
+import java.util.Date;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.table.DefaultTableModel;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.ChartFrame;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.data.category.CategoryDataset;
+import org.jfree.data.category.DefaultCategoryDataset;
+
+/**
+ *
+ * @author raunak
+ */
+public class ManufactureInventoryManagementWorkAreaJPanel extends javax.swing.JPanel {
+
+    private JPanel userProcessContainer;
+    private EcoSystem business;
+    private UserAccount userAccount;
+    private ManufactureInventoryClerkOrganization labOrganization;
+    private Enterprise enterprise;
+    private Network network;
+    
+    /**
+     * Creates new form LabAssistantWorkAreaJPanel
+     */
+    public ManufactureInventoryManagementWorkAreaJPanel(JPanel userProcessContainer, UserAccount account, Organization organization,Enterprise enterprise, Network network,EcoSystem business) {
+        initComponents();
+        this.userProcessContainer = userProcessContainer;
+        this.userAccount = account;
+        this.business = business;
+        this.enterprise = enterprise;
+        this.labOrganization = (ManufactureInventoryClerkOrganization)organization;
+        this.network = network;
+        try{
+            populateinventoryTable();
+            
+        }
+        catch(Exception e){
+            System.out.println("Empty Inventory not there");
+            
+        }
+        try{
+            populateVaccineDropDown();
+            
+        }
+        catch(Exception e){
+            System.out.println("Empty Vaccine List not there");
+            
+        }
+        
+    }
+    public void populateVaccineDropDown(){
+        VaccinejComboBox.removeAllItems();
+        for(Vaccination vac : business.getVaccinationDirectory().getvaccinationDirectory()){
+            VaccinejComboBox.addItem(vac);
+        }
+    }
+    private CategoryDataset createDataset( ) {
+      
+       DefaultCategoryDataset dataset = new DefaultCategoryDataset();
+       for(Vaccination vac : business.getVaccinationDirectory().getvaccinationDirectory()){
+           int vacNum =0;
+           int vacleft = 0;
+           System.out.println(vac);
+            for(InventoryItem item : enterprise.getInventoryDirectory().getInventoryDirectory()){
+           
+               if(item.getVacination().getName().equals(vac.getName())){
+                   vacNum=vacNum+item.getProducedReceivedQuantity();
+                   vacleft = vacleft+item.getQuantity();
+                   dataset.addValue( vacNum  , "Total Manufactued", item.getVacination().getName() );
+                   dataset.addValue( vacleft , "Currently Avaiable", item.getVacination().getName() );
+               }
+               System.out.println(item.getVacination());
+           }
+       }
+      return dataset; 
+   }
+    public void BarChart_AWT( String applicationTitle , String chartTitle ){
+     JFreeChart barChart = ChartFactory.createBarChart(
+         chartTitle,           
+         "Category",            
+         "Quantity",            
+         createDataset(),          
+         PlotOrientation.VERTICAL,           
+         true, true, false);
+         
+        ChartFrame frame = new ChartFrame(applicationTitle, barChart);
+        frame.pack();
+        frame.setVisible(true);
+   }
+    public void populateinventoryTable() {
+        DefaultTableModel model = (DefaultTableModel)inverntoryJTable.getModel();
+        
+        model.setRowCount(0);
+        
+        for(InventoryItem inventoryItem : enterprise.getInventoryDirectory().getInventoryDirectory()){
+                Object[] row = new Object[8];
+                row[0] = inventoryItem;
+                row[1] = inventoryItem.getVacination().getName();
+                row[2] = inventoryItem.getVacination().getManufacturingDate();
+                row[3] = inventoryItem.getVacination().getExpiryDate();
+                row[4] = inventoryItem.getVacination().getBatchNo();
+                row[5] = String.valueOf(inventoryItem.getQuantity());
+                row[6] = String.valueOf(inventoryItem.getProducedReceivedQuantity());
+                row[7] = enterprise.getName();
+                model.addRow(row);
+            
+        }
+    }
+    
+    
+
+    /**
+     * This method is called from within the constructor to initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is always
+     * regenerated by the Form Editor.
+     */
+    @SuppressWarnings("unchecked")
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        jScrollPane1 = new javax.swing.JScrollPane();
+        inverntoryJTable = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        deleteJButton = new javax.swing.JButton();
+        jLabel3 = new javax.swing.JLabel();
+        VaccinejComboBox = new javax.swing.JComboBox();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        batchNumjTextField = new javax.swing.JTextField();
+        manuDatejXDatePicker = new org.jdesktop.swingx.JXDatePicker();
+        expDatejXDatePicker = new org.jdesktop.swingx.JXDatePicker();
+        addjButton = new javax.swing.JButton();
+        managejButton1 = new javax.swing.JButton();
+        jLabel7 = new javax.swing.JLabel();
+        quantityjSpinner = new javax.swing.JSpinner();
+        backButton = new javax.swing.JButton();
+        stockbarjButton = new javax.swing.JButton();
+
+        inverntoryJTable.setBackground(new java.awt.Color(255, 203, 203));
+        inverntoryJTable.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        inverntoryJTable.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+
+            },
+            new String [] {
+                "Vaccine Id", "Vaccine Name", "Manufacturign Date", "Expiry Date", "Batch Number", "Available Quantity", "Manufactured Quantity", "Manufacure"
+            }
+        ) {
+            boolean[] canEdit = new boolean [] {
+                false, false, false, false, false, false, false, false
+            };
+
+            public boolean isCellEditable(int rowIndex, int columnIndex) {
+                return canEdit [columnIndex];
+            }
+        });
+        jScrollPane1.setViewportView(inverntoryJTable);
+        if (inverntoryJTable.getColumnModel().getColumnCount() > 0) {
+            inverntoryJTable.getColumnModel().getColumn(0).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(1).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(2).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(3).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(4).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(5).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(6).setResizable(false);
+            inverntoryJTable.getColumnModel().getColumn(7).setResizable(false);
+        }
+
+        jLabel1.setFont(new java.awt.Font("Footlight MT Light", 1, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Manufacturer Inventory Work Area");
+
+        jLabel2.setFont(new java.awt.Font("Footlight MT Light", 1, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setText("Available Inventory");
+
+        deleteJButton.setBackground(new java.awt.Color(255, 138, 138));
+        deleteJButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        deleteJButton.setText("Delete Batch");
+        deleteJButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteJButtonActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+        jLabel3.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel3.setText("Vaccine Name");
+
+        VaccinejComboBox.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+
+        jLabel4.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+        jLabel4.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel4.setText("Manufacturing Date");
+
+        jLabel5.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel5.setText("Expiry Date");
+
+        jLabel6.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+        jLabel6.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel6.setText("Batch Number");
+
+        batchNumjTextField.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+
+        manuDatejXDatePicker.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+
+        expDatejXDatePicker.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+
+        addjButton.setBackground(new java.awt.Color(137, 255, 137));
+        addjButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        addjButton.setText("Add");
+        addjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addjButtonActionPerformed(evt);
+            }
+        });
+
+        managejButton1.setBackground(new java.awt.Color(203, 203, 255));
+        managejButton1.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        managejButton1.setText("Manage Vaccine");
+        managejButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                managejButton1ActionPerformed(evt);
+            }
+        });
+
+        jLabel7.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 0, 0));
+        jLabel7.setText("Quantity");
+
+        quantityjSpinner.setFont(new java.awt.Font("Californian FB", 1, 24)); // NOI18N
+
+        backButton.setBackground(new java.awt.Color(203, 203, 255));
+        backButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        backButton.setText("<<Back");
+        backButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                backButtonActionPerformed(evt);
+            }
+        });
+
+        stockbarjButton.setBackground(new java.awt.Color(203, 203, 255));
+        stockbarjButton.setFont(new java.awt.Font("Tahoma", 1, 16)); // NOI18N
+        stockbarjButton.setText("Stock Bar Chart");
+        stockbarjButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                stockbarjButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1019, Short.MAX_VALUE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(layout.createSequentialGroup()
+                                .addGap(0, 0, Short.MAX_VALUE)
+                                .addComponent(managejButton1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED))
+                            .addGroup(layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 229, Short.MAX_VALUE)))
+                                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(backButton, javax.swing.GroupLayout.PREFERRED_SIZE, 142, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(32, 32, 32)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addComponent(addjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(quantityjSpinner)
+                                    .addComponent(batchNumjTextField)
+                                    .addComponent(VaccinejComboBox, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(manuDatejXDatePicker, javax.swing.GroupLayout.PREFERRED_SIZE, 174, Short.MAX_VALUE)
+                                    .addComponent(expDatejXDatePicker, javax.swing.GroupLayout.PREFERRED_SIZE, 1, Short.MAX_VALUE))
+                                .addGap(426, 426, 426)))
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(stockbarjButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(deleteJButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(deleteJButton)
+                    .addComponent(managejButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(VaccinejComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(stockbarjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(manuDatejXDatePicker, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(expDatejXDatePicker, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(batchNumjTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel7)
+                    .addComponent(quantityjSpinner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(addjButton, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(backButton))
+                .addContainerGap(35, Short.MAX_VALUE))
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void deleteJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteJButtonActionPerformed
+
+        int selectRow = inverntoryJTable.getSelectedRow();
+
+        if (selectRow < 0) {
+            JOptionPane.showMessageDialog(null, "please select any row", "WARNING", JOptionPane.WARNING_MESSAGE);
+
+        }
+
+        InventoryItem item = (InventoryItem) inverntoryJTable.getValueAt(selectRow, 0);
+        enterprise.getInventoryDirectory().removeItem(item);
+        populateinventoryTable();
+        JOptionPane.showMessageDialog(null, "Batch Deleted", "WARNING", JOptionPane.WARNING_MESSAGE);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_deleteJButtonActionPerformed
+
+    private void addjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addjButtonActionPerformed
+        if(manuDatejXDatePicker.getDate() instanceof Date && expDatejXDatePicker.getDate() instanceof Date){
+            if(expDatejXDatePicker.getDate().compareTo(manuDatejXDatePicker.getDate())<0){
+                JOptionPane.showMessageDialog(null, "Expiry Date is before maufacture, are you sure that sounds right?");
+            }
+            else{
+                if(!String.valueOf(quantityjSpinner.getValue()).isEmpty()&& String.valueOf(quantityjSpinner.getValue()).matches("[0-9]+")){
+                    InventoryItem item = enterprise.getInventoryDirectory().addItem();
+                    Vaccination vac = new Vaccination();
+                    Vaccination selectedVac = (Vaccination)VaccinejComboBox.getSelectedItem();
+                    vac.setManufacturingDate(manuDatejXDatePicker.getDate());
+                    vac.setExpiryDate(expDatejXDatePicker.getDate());
+                    vac.setName(selectedVac.getName());
+                    vac.setVaccineId(selectedVac.getVaccineId());
+                    vac.setBatchNo(batchNumjTextField.getText());
+                    JOptionPane.showMessageDialog(null, "Added Vaccine");
+                    item.setVacination(vac);
+                    item.setProducedReceivedQuantity(Integer.parseInt(String.valueOf(quantityjSpinner.getValue())));
+                    item.setQuantity(Integer.parseInt(String.valueOf(quantityjSpinner.getValue())));
+                    item.setEnterprise(enterprise);
+                    populateinventoryTable();
+                }
+                else{
+                    JOptionPane.showMessageDialog(null, "The Quantity is not an integer, please check the value");
+                }
+                
+            }
+        }
+        else{
+            JOptionPane.showMessageDialog(null, "Invalid date please use picker to select date to get right format");
+        }
+        
+    }//GEN-LAST:event_addjButtonActionPerformed
+
+    private void managejButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_managejButton1ActionPerformed
+        int selectRow = inverntoryJTable.getSelectedRow();
+        if (selectRow < 0) {                                                           // if selectedRow <0 means the row is not selected
+            JOptionPane.showMessageDialog(null, "please select any row from the first table", "WARNING", JOptionPane.WARNING_MESSAGE);
+            return;
+        }
+        InventoryItem item = (InventoryItem) inverntoryJTable.getValueAt(selectRow, 0);
+        ManageVaccinationsInventoryJPanel manageVaccinationsInventoryJPanel = new ManageVaccinationsInventoryJPanel(userProcessContainer, enterprise,item,business);
+        userProcessContainer.add("ManageDiseasesVaccinationsJPanel", manageVaccinationsInventoryJPanel);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.next(userProcessContainer);
+    }//GEN-LAST:event_managejButton1ActionPerformed
+
+    private void backButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_backButtonActionPerformed
+          userProcessContainer.remove(this);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.previous(userProcessContainer);
+    }//GEN-LAST:event_backButtonActionPerformed
+
+    private void stockbarjButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stockbarjButtonActionPerformed
+        BarChart_AWT( "Inventory Stock Bar Chart" , "Inventory Stock Bar Chart" );
+    }//GEN-LAST:event_stockbarjButtonActionPerformed
+
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JComboBox VaccinejComboBox;
+    private javax.swing.JButton addjButton;
+    private javax.swing.JButton backButton;
+    private javax.swing.JTextField batchNumjTextField;
+    private javax.swing.JButton deleteJButton;
+    private org.jdesktop.swingx.JXDatePicker expDatejXDatePicker;
+    private javax.swing.JTable inverntoryJTable;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JButton managejButton1;
+    private org.jdesktop.swingx.JXDatePicker manuDatejXDatePicker;
+    private javax.swing.JSpinner quantityjSpinner;
+    private javax.swing.JButton stockbarjButton;
+    // End of variables declaration//GEN-END:variables
+
+    
+}

@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="1017" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Q7JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q3JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q8JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q9JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q10JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q11JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="Q4JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="manufacturedYearJTextField" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                              <Component id="modelNumberJTextField" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                              <Component id="airportAvblJTextField" alignment="0" min="-2" pref="68" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="searchJButton" alignment="1" min="-2" pref="131" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="showQ9JButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="showQ8JButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkQ3JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkQ4JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkQ7JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkQ10JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="checkQ11JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="Q1JLabel" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="showQ1JButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Q6JLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="serialNumberJTextField" min="-2" pref="68" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="specificShowOptionJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="specificSearchOptionJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Q2JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="Q5JLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="minSeatsJTextField1" min="-2" pref="68" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="maxSeatsJTextField" min="-2" pref="68" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="showQ2JButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="showQ5JButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="showQ6JButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="181" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <EmptySpace min="0" pref="718" max="32767" attributes="0"/>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                  <Component id="specificShowOptionJLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q1JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ1JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q2JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ2JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q5JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ5JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="maxSeatsJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="minSeatsJTextField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q6JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ6JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="serialNumberJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q8JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ8JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Q9JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="showQ9JButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
+                  <Component id="specificSearchOptionJLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="checkQ3JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="Q3JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="manufacturedYearJTextField" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="modelNumberJTextField" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Q4JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="checkQ4JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="Q7JLabel" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Component id="checkQ7JCheckBox" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                          <Component id="Q10JLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="airportAvblJTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="checkQ10JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="Q11JLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="checkQ11JCheckBox" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="searchJButton" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="40" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Q6JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="6) Find an aircraft with serial number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="manufacturedYearJTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="manufacturedYearJTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q7JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="7) List all aircrafts with model number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="airportAvblJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q8JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="8) List all aircraft manufactures used by NEU Airlines."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q9JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="9) When was the fleet last updated?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q10JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="10) List all aircrafts available at Airport:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q11JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="11) List all aircrafts with expired Maintenance Certificate."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="searchJButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Search"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchJButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="specificShowOptionJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="16" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Specific Show Options"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="maxSeatsJTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q1JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1) Show the FIRST available aircraft."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="minSeatsJTextField1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="minSeatsJTextField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="specificSearchOptionJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="16" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Specific Search Options"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkQ3JCheckBox">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkQ3JCheckBoxActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ1JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showQ1JButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkQ4JCheckBox">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q2JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2) How many aircrafts are available with seats, or otherwise?"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkQ7JCheckBox">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q3JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3) List all aircrafts that are made by Boeing."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkQ10JCheckBox">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q4JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4) List all aircrafts manufactured in year:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="checkQ11JCheckBox">
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ2JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showQ2JButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ5JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ6JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showQ6JButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ8JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showQ8JButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="showQ9JButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Show"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showQ9JButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="serialNumberJTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serialNumberJTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Q5JLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5) Find an aircraft with a MIN, MAX available seats."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modelNumberJTextField">
+    </Component>
+  </SubComponents>
+</Form>

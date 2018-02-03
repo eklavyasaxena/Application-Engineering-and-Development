@@ -1,0 +1,4 @@
+userinterface.PharmacistRole.PharmacyInventoryClerkWorkAreaJPanel
+userinterface.PharmacistRole.PharmacyInventoryClerkWorkAreaJPanel$2
+userinterface.PharmacistRole.PharmacyInventoryClerkWorkAreaJPanel$3
+userinterface.PharmacistRole.PharmacyInventoryClerkWorkAreaJPanel$1

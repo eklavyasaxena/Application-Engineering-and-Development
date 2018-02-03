@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="financialAccountsJLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                      <Component id="imageLabel" min="-2" pref="168" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="profilePictureJLabel" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="140" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="displayJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="creditCardJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="cardNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bankNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="creditCompJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="cardCVVJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="validThruJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="cardNumTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="bankNameTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="creditCompTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cardCVVTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="validThruTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="addressJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="streetNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="aptNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="zipCodeJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="streetNameTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="aptNumTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="cityTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="stateTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="zipCodeTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="personJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="firstNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lastNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ageJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="genderJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="mobileNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="131" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="firstNameTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="lastNameTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="ageTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="genderTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                                  <Component id="mobileNumTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="licenseDataJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="licenseNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="bloodGroupJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="dateOfBirthJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="fathersNameJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="licencingAuthorityNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="licenseNumTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="bloodGroupTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="dateOfBirthTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="fathersNameTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="licencingAuthorityTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="checkingAccountJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingAccountNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingCreationDateJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingStatusJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingDebtJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingCreditJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="222" pref="222" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="checkingAccountNumTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkingCreationDateTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkingStatusTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkingDebtTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="checkingCreditTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="savingsAccountJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsAccountNumJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsCreationDateJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsStatusJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsDebtJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsCreditJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="194" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="savingsAccountNumTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="savingsCreationDateTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="savingsStatusTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="savingsDebtTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="savingsCreditTextField" alignment="0" min="-2" pref="150" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="licenseDataJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="licenseNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="licenseNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bloodGroupJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bloodGroupTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="dateOfBirthJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="dateOfBirthTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="fathersNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="fathersNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="licencingAuthorityNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="licencingAuthorityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="displayJLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="200" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="imageLabel" min="-2" pref="209" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="profilePictureJLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="personJLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="firstNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="firstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lastNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="ageJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="ageTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="genderJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="genderTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="mobileNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="mobileNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="40" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="addressJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="streetNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="streetNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="aptNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="aptNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cityJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="stateJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="stateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="zipCodeJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="zipCodeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="creditCardJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cardNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cardNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="bankNameJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="bankNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="creditCompJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="creditCompTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="cardCVVJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="cardCVVTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="validThruJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="validThruTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingAccountJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="financialAccountsJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingAccountNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingAccountNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingCreationDateJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingCreationDateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingStatusJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingStatusTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingDebtJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingDebtTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="checkingCreditJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="checkingCreditTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="savingsAccountJLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="savingsAccountNumJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsAccountNumTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="savingsCreationDateJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsCreationDateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="savingsStatusJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsStatusTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="savingsDebtJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsDebtTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="savingsCreditJLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="savingsCreditTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="licenseNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="License Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingStatusJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status (Active/Not-Active):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bloodGroupJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Blood Group:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingDebtJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Debt (in $):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="dateOfBirthJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DOB (MM/DD/YY):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="fathersNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Father&apos;s Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="licencingAuthorityNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Licencing Authority:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cardNumTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardNumTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingCreditJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Credit (in $):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkingAccountNumTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkingAccountNumTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkingCreationDateTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkingStatusTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="bankNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkingDebtTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkingDebtTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="creditCompTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingAccountJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Checking Account"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cardCVVTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cardCVVTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="checkingCreditTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="creditCardJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Credit Card Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsStatusJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Status (Active/Not-Active):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="validThruTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsDebtJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Debt (in $):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cardNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Card Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsCreditJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Credit (in $):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bankNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Bank Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="creditCompJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Credit Company (VISA/MC):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cardCVVJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Card CVV:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="validThruJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Valid Through (MM/YY):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="streetNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="streetNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="aptNumTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="cityTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="stateTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="stateTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="addressJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Address"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="zipCodeTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="streetNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Street Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="aptNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apartment Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="cityJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="City:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="displayJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="20" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="User Profile Information"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="stateJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="State:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="personJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Person"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="firstNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="First Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lastNameJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Last Name:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ageJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Age (in years):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zipCodeJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Zip Code:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="profilePictureJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Profile Picture"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="genderJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Gender:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="mobileNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Mobile Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="firstNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="lastNameTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ageTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="genderTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="genderTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="mobileNumTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="licenseNumTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="licenseNumTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="bloodGroupTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="savingsAccountNumTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="savingsAccountNumTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="savingsCreationDateTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="savingsStatusTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="savingsDebtTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="savingsDebtTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsAccountJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Savings Account"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="savingsCreditTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsAccountNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Account Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="savingsCreationDateJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Creation Date (MM/DD/YY):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="financialAccountsJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Financial Accounts"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dateOfBirthTextField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="fathersNameTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fathersNameTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="licenseDataJLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="License Details"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingAccountNumJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Account Number:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="licencingAuthorityTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="checkingCreationDateJLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Creation Date (MM/DD/YY):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="imageLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Image"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.MatteColorBorderInfo">
+            <MatteColorBorder bottom="2" left="2" right="2" top="2"/>
+          </Border>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
